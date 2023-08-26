@@ -78,7 +78,7 @@ func CheckString(str string) bool {
 			}
 		}
 	}
-	return true
+	return tmp.Len() != 0
 }
 
 func main() {
